@@ -1,0 +1,16 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "Kanban-style daily task tracker with SQLite time tracking",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
